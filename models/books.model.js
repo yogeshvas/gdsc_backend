@@ -30,4 +30,4 @@ const bookSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Books = mongoose.export("Books", bookSchema);
+export const Books = mongoose.model("Books", bookSchema);

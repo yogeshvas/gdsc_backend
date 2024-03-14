@@ -33,6 +33,7 @@ export const register = async (req, res, next) => {
     next(error);
   }
 };
+//Register testing done
 export const login = async (req, res, next) => {
   try {
     const { rollNo, password } = req.body;
@@ -57,6 +58,7 @@ export const login = async (req, res, next) => {
     next(error);
   }
 };
+//Login testing done
 
 export const logout = async (req, res) => {
   res

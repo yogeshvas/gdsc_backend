@@ -16,5 +16,5 @@ router.post("/login", loginAdmin);
 router.get("/logout", isAdminAuthenticated, logoutAdmin);
 router.post("/addbook", isAdminAuthenticated, addBook);
 router.post("/issueBook", isAdminAuthenticated, issueBook);
-router.get("getAllDetails", isAdminAuthenticated, getAllDetails);
+router.get("/getAllDetails", isAdminAuthenticated, getAllDetails);
 export default router;
